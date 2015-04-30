@@ -1,0 +1,18 @@
+24/04/2015 00:00:40 devpinoyLogger Loading Property Files
+24/04/2015 00:00:40 devpinoyLogger Loaded Property Files successfully
+24/04/2015 00:00:40 devpinoyLogger Loading XLS Files
+24/04/2015 00:00:42 devpinoyLogger Loaded XLS Files
+24/04/2015 00:00:42 devpinoyLogger Checking runmode of Shop Suite
+24/04/2015 00:00:42 devpinoyLogger Executing testCaseA2
+24/04/2015 00:00:42 devpinoyLogger Safety Helmet -  -  - 2
+24/04/2015 00:01:25 devpinoyLogger Cannot find webElement by xpath - commitBox
+24/04/2015 00:01:27 devpinoyLogger Executing testCaseA2
+24/04/2015 00:01:27 devpinoyLogger Cowboy Hat -  -  - 3
+24/04/2015 00:01:38 devpinoyLogger Skipping test case CheckProductDisplay coz runmode is set to NO
+24/04/2015 00:01:38 devpinoyLogger Skipping test case RandomSelection coz runmode is set to NO
+24/04/2015 00:01:38 devpinoyLogger Checking runmode of Shop Suite
+24/04/2015 00:01:38 devpinoyLogger Executing CheckTotal
+24/04/2015 00:01:42 devpinoyLogger Skipping test case TestCase_B2 coz runmode is set to NO
+24/04/2015 00:01:42 devpinoyLogger Checking runmode of Shop Suite
+24/04/2015 00:01:42 devpinoyLogger Skipping test case TestCase_C1 coz runmode is set to NO
+24/04/2015 00:01:42 devpinoyLogger Skipping test case TestCase_C2 coz runmode is set to NO

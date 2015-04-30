@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]" parallel="false">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test A1(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteA.TestCase_A2">
+        <methods>
+          <include name="checkTestSkipped"/>
+          <include name="checkSuiteSkipped"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.suiteA.TestCase_A1">
+        <methods>
+          <include name="testCase_A1" invocation-numbers="0 1 2 3"/>
+          <include name="setDataResult"/>
+          <include name="checkTestSkipped"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test A2(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteA.TestCase_A2">
+        <methods>
+          <include name="testCase_A2" invocation-numbers="1 2"/>
+          <include name="checkTestSkipped"/>
+          <include name="checkSuiteSkipped"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.suiteA.TestCase_A1">
+        <methods>
+          <include name="setDataResult"/>
+          <include name="checkTestSkipped"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

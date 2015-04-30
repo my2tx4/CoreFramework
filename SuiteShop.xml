@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteShop">
+	
+	<test name="AddProductTest">
+		<classes>
+			<class name="com.qtpselenium.suiteShop.AddProductTest"></class>
+		</classes>
+	</test>
+
+	<test name="CheckProductDisplay">
+		<classes>
+			<class name="com.qtpselenium.suiteShop.CheckProductDisplay"></class>
+		</classes>
+	</test>
+	<test name="RandomSelection">
+		<classes>
+			<class name="com.qtpselenium.suiteShop.RandomSelection"></class>
+		</classes>
+	</test>	
+		
+
+	
+</suite>

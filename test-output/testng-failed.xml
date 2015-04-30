@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteCart]">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test B2(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteCart.CheckTotal">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="setDataResult"/>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteCart.CheckTotal -->
+      <class name="com.qtpselenium.suiteCart.TestCase_B2">
+        <methods>
+          <include name="testCase_B2"/>
+          <include name="checkSuiteSkipped"/>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteCart.TestCase_B2 -->
+    </classes>
+  </test> <!-- Test B2(failed) -->
+</suite> <!-- Failed suite [SuiteCart] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bender-ПК" name="com.qtpselenium.suiteB.TestCase_B1" tests="4" failures="0" timestamp="16 Apr 2015 04:26:35 GMT" time="0.009" errors="0">
+  <testcase name="testCase_B1" time="0.0" classname="com.qtpselenium.suiteB.TestCase_B1"/>
+  <testcase name="testCase_B1" time="0.0" classname="com.qtpselenium.suiteB.TestCase_B1"/>
+  <testcase name="testCase_B1" time="0.001" classname="com.qtpselenium.suiteB.TestCase_B1">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_B1" time="0.0" classname="com.qtpselenium.suiteB.TestCase_B1">
+    <skipped/>
+  </testcase>
+</testsuite>

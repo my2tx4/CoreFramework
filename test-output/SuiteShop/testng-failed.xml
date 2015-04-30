@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteShop]">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="AddProductTest(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteShop.CheckProductDisplay">
+        <methods>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.CheckProductDisplay -->
+      <class name="com.qtpselenium.suiteShop.RandomSelection">
+        <methods>
+          <include name="checkSuiteSkipped"/>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.RandomSelection -->
+      <class name="com.qtpselenium.suiteShop.AddProductTest">
+        <methods>
+          <include name="addProductTest" invocation-numbers="0 1 2"/>
+          <include name="checkTestSkipped"/>
+          <include name="setDataResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.AddProductTest -->
+    </classes>
+  </test> <!-- AddProductTest(failed) -->
+  <test name="CheckProductDisplay(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteShop.CheckProductDisplay">
+        <methods>
+          <include name="checkTestSkipped"/>
+          <include name="checkProductDisplay"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.CheckProductDisplay -->
+      <class name="com.qtpselenium.suiteShop.RandomSelection">
+        <methods>
+          <include name="checkSuiteSkipped"/>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.RandomSelection -->
+      <class name="com.qtpselenium.suiteShop.AddProductTest">
+        <methods>
+          <include name="checkTestSkipped"/>
+          <include name="setDataResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.AddProductTest -->
+    </classes>
+  </test> <!-- CheckProductDisplay(failed) -->
+  <test name="RandomSelection(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteShop.CheckProductDisplay">
+        <methods>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.CheckProductDisplay -->
+      <class name="com.qtpselenium.suiteShop.RandomSelection">
+        <methods>
+          <include name="randomSelection"/>
+          <include name="checkSuiteSkipped"/>
+          <include name="checkTestSkipped"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.RandomSelection -->
+      <class name="com.qtpselenium.suiteShop.AddProductTest">
+        <methods>
+          <include name="checkTestSkipped"/>
+          <include name="setDataResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteShop.AddProductTest -->
+    </classes>
+  </test> <!-- RandomSelection(failed) -->
+</suite> <!-- Failed suite [SuiteShop] -->

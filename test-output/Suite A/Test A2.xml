@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bender-ПК" name="com.qtpselenium.suiteA.TestCase_A2" tests="3" failures="0" timestamp="16 Apr 2015 04:26:35 GMT" time="0.005" errors="0">
+  <testcase name="testCase_A2" time="0.001" classname="com.qtpselenium.suiteA.TestCase_A2"/>
+  <testcase name="testCase_A2" time="0.0" classname="com.qtpselenium.suiteA.TestCase_A2">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_A2" time="0.0" classname="com.qtpselenium.suiteA.TestCase_A2">
+    <skipped/>
+  </testcase>
+</testsuite>

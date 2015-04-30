@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">4 suites, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteProductDisplay">
+              <span class="suite-name border-failed">SuiteProductDisplay</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteProductDisplay">
+                    <span>C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteProductDisplay.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteProductDisplay">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteProductDisplay">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteProductDisplay">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteProductDisplay">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteProductDisplay">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteProductDisplay">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteProductDisplay" class="hide-methods failed suite-SuiteProductDisplay"> (hide)</a> <!-- hide-methods failed suite-SuiteProductDisplay -->
+                      <a href="#" panel-name="suite-SuiteProductDisplay" class="show-methods failed suite-SuiteProductDisplay"> (show)</a> <!-- show-methods failed suite-SuiteProductDisplay -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteProductDisplay">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteProductDisplay" title="com.qtpselenium.suiteProductDisplay.TestCase_C1" hash-for-method="testCase_C1">testCase_C1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteProductDisplay" title="com.qtpselenium.suiteProductDisplay.TestCase_C2" hash-for-method="testCase_C2">testCase_C2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteProductDisplay -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteShop">
+              <span class="suite-name border-failed">SuiteShop</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteShop">
+                    <span>C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteShop.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteShop">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteShop">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteShop">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteShop">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteShop">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteShop">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 3 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteShop" class="hide-methods failed suite-SuiteShop"> (hide)</a> <!-- hide-methods failed suite-SuiteShop -->
+                      <a href="#" panel-name="suite-SuiteShop" class="show-methods failed suite-SuiteShop"> (show)</a> <!-- show-methods failed suite-SuiteShop -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteShop">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteShop" title="com.qtpselenium.suiteShop.AddProductTest" hash-for-method="addProductTest(Safety Helmet, , , 2)">addProductTest(Safety Helmet, , , 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteShop" title="com.qtpselenium.suiteShop.AddProductTest" hash-for-method="addProductTest(Cowboy†Hat, , , 3)">addProductTest(Cowboy†Hat, , , 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteShop" title="com.qtpselenium.suiteShop.RandomSelection" hash-for-method="randomSelection">randomSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteShop -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SuiteShop" class="hide-methods skipped suite-SuiteShop"> (hide)</a> <!-- hide-methods skipped suite-SuiteShop -->
+                      <a href="#" panel-name="suite-SuiteShop" class="show-methods skipped suite-SuiteShop"> (show)</a> <!-- show-methods skipped suite-SuiteShop -->
+                    </span>
+                    <div class="method-list-content skipped suite-SuiteShop">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteShop" title="com.qtpselenium.suiteShop.AddProductTest" hash-for-method="addProductTest(, , , )">addProductTest(, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteShop" title="com.qtpselenium.suiteShop.CheckProductDisplay" hash-for-method="checkProductDisplay">checkProductDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SuiteShop -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteCart">
+              <span class="suite-name border-failed">SuiteCart</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteCart">
+                    <span>C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteCart.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteCart">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteCart">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteCart">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteCart">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteCart">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteCart">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteCart" class="hide-methods failed suite-SuiteCart"> (hide)</a> <!-- hide-methods failed suite-SuiteCart -->
+                      <a href="#" panel-name="suite-SuiteCart" class="show-methods failed suite-SuiteCart"> (show)</a> <!-- show-methods failed suite-SuiteCart -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteCart">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteCart" title="com.qtpselenium.suiteCart.TestCase_B2" hash-for-method="testCase_B2">testCase_B2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteCart -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteCart" class="hide-methods passed suite-SuiteCart"> (hide)</a> <!-- hide-methods passed suite-SuiteCart -->
+                      <a href="#" panel-name="suite-SuiteCart" class="show-methods passed suite-SuiteCart"> (show)</a> <!-- show-methods passed suite-SuiteCart -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteCart">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteCart" title="com.qtpselenium.suiteCart.CheckTotal" hash-for-method="CheckTotal">CheckTotal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteCart -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteProductDisplay" class="panel SuiteProductDisplay">
+          <div class="suite-SuiteProductDisplay-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.suiteProductDisplay.TestCase_C1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase_C1">
+                  </a> <!-- testCase_C1 -->
+                  <span class="method-name">testCase_C1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+The data provider is trying to pass 4 parameters but the method com.qtpselenium.suiteProductDisplay.TestCase_C1#testCase_C1 takes 0
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteProductDisplay-class-failed -->
+          <div class="suite-SuiteProductDisplay-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase_C2">
+                  </a> <!-- testCase_C2 -->
+                  <span class="method-name">testCase_C2</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void com.qtpselenium.suiteProductDisplay.TestCase_C2.testCase_C2() requires a @DataProvider named : getTestData
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteProductDisplay-class-failed -->
+        </div> <!-- panel SuiteProductDisplay -->
+        <div panel-name="suite-SuiteShop" class="panel SuiteShop">
+          <div class="suite-SuiteShop-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.suiteShop.RandomSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomSelection">
+                  </a> <!-- randomSelection -->
+                  <span class="method-name">randomSelection</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+The data provider is trying to pass 0 parameters but the method com.qtpselenium.suiteShop.RandomSelection#randomSelection takes 3 and TestNG is unable in inject a suitable object
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	... 17 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteShop-class-failed -->
+          <div class="suite-SuiteShop-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.suiteShop.AddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductTest(Safety Helmet, , , 2)">
+                  </a> <!-- addProductTest(Safety Helmet, , , 2) -->
+                  <span class="method-name">addProductTest</span>
+                  <span class="parameters">(Safety Helmet, , , 2)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.qtpselenium.suiteShop.AddProductTest.addProductTest(AddProductTest.java:90)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductTest(Cowboy†Hat, , , 3)">
+                  </a> <!-- addProductTest(Cowboy†Hat, , , 3) -->
+                  <span class="method-name">addProductTest</span>
+                  <span class="parameters">(Cowboy†Hat, , , 3)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.11 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Bender-œ &apos;, ip: &apos;10.0.0.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: 71f71b0a-007c-430f-a538-d907e16e8922
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=36.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at com.qtpselenium.suiteShop.AddProductTest.addProductTest(AddProductTest.java:57)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Bender-œ &apos;, ip: &apos;10.0.0.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/Bender/AppData/Local/Temp/anonymous7110525440679681748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Bender/AppData/Local/Temp/anonymous7110525440679681748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Bender/AppData/Local/Temp/anonymous7110525440679681748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Bender/AppData/Local/Temp/anonymous7110525440679681748webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteShop-class-failed -->
+          <div class="suite-SuiteShop-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.suiteShop.CheckProductDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductDisplay">
+                  </a> <!-- checkProductDisplay -->
+                  <span class="method-name">checkProductDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteShop-class-skipped -->
+          <div class="suite-SuiteShop-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.suiteShop.AddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductTest(, , , )">
+                  </a> <!-- addProductTest(, , , ) -->
+                  <span class="method-name">addProductTest</span>
+                  <span class="parameters">(, , , )</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode for test is set to no  2
+	at com.qtpselenium.suiteShop.AddProductTest.addProductTest(AddProductTest.java:43)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteShop-class-skipped -->
+        </div> <!-- panel SuiteShop -->
+        <div panel-name="suite-SuiteCart" class="panel SuiteCart">
+          <div class="suite-SuiteCart-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.suiteCart.TestCase_B2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase_B2">
+                  </a> <!-- testCase_B2 -->
+                  <span class="method-name">testCase_B2</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+The data provider is trying to pass 4 parameters but the method com.qtpselenium.suiteCart.TestCase_B2#testCase_B2 takes 0
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCart-class-failed -->
+          <div class="suite-SuiteCart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.suiteCart.CheckTotal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckTotal">
+                  </a> <!-- CheckTotal -->
+                  <span class="method-name">CheckTotal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteCart-class-passed -->
+        </div> <!-- panel SuiteCart -->
+        <div panel-name="suite-My_suite" class="panel My_suite">
+        </div> <!-- panel My_suite -->
+        <div panel-name="test-xml-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteProductDisplay.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteProductDisplay&quot;&gt;
+  &lt;test name=&quot;Test C1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteProductDisplay.TestCase_C1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test C1 --&gt;
+  &lt;test name=&quot;Test C2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteProductDisplay.TestCase_C2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test C2 --&gt;
+&lt;/suite&gt; &lt;!-- SuiteProductDisplay --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteShop.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteShop&quot;&gt;
+  &lt;test name=&quot;AddProductTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteShop.AddProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddProductTest --&gt;
+  &lt;test name=&quot;CheckProductDisplay&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteShop.CheckProductDisplay&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckProductDisplay --&gt;
+  &lt;test name=&quot;RandomSelection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteShop.RandomSelection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RandomSelection --&gt;
+&lt;/suite&gt; &lt;!-- SuiteShop --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\SuiteCart.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteCart&quot;&gt;
+  &lt;test name=&quot;CheckTotal&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteCart.CheckTotal&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckTotal --&gt;
+  &lt;test name=&quot;Test B2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.suiteCart.TestCase_B2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B2 --&gt;
+&lt;/suite&gt; &lt;!-- SuiteCart --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bender\workspace\qtpSelenium\Core_DataDrivenFramework_Webdriver\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qtpselenium.listener.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./SuiteShop.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./SuiteCart.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./SuiteproductDisplay.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteProductDisplay</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test C1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test C2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddProductTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckProductDisplay (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RandomSelection (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteCart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CheckTotal (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test B2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteProductDisplay</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteCart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteProductDisplay</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteProductDisplay');
+function tableData_SuiteProductDisplay() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCase_C1')
+data.setCell(0, 2, 'com.qtpselenium.suiteProductDisplay.TestCase_C1')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase_C2')
+data.setCell(1, 2, 'com.qtpselenium.suiteProductDisplay.TestCase_C2')
+data.setCell(1, 3, 0);
+window.suiteTableData['SuiteProductDisplay']= { tableData: data, tableDiv: 'times-div-SuiteProductDisplay'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-SuiteProductDisplay">
+              </div> <!-- times-div-SuiteProductDisplay -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteShop');
+function tableData_SuiteShop() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addProductTest')
+data.setCell(0, 2, 'com.qtpselenium.suiteShop.AddProductTest')
+data.setCell(0, 3, 46228);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addProductTest')
+data.setCell(1, 2, 'com.qtpselenium.suiteShop.AddProductTest')
+data.setCell(1, 3, 11482);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addProductTest')
+data.setCell(2, 2, 'com.qtpselenium.suiteShop.AddProductTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkProductDisplay')
+data.setCell(3, 2, 'com.qtpselenium.suiteShop.CheckProductDisplay')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'randomSelection')
+data.setCell(4, 2, 'com.qtpselenium.suiteShop.RandomSelection')
+data.setCell(4, 3, 0);
+window.suiteTableData['SuiteShop']= { tableData: data, tableDiv: 'times-div-SuiteShop'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-SuiteShop">
+              </div> <!-- times-div-SuiteShop -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteCart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteCart');
+function tableData_SuiteCart() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckTotal')
+data.setCell(0, 2, 'com.qtpselenium.suiteCart.CheckTotal')
+data.setCell(0, 3, 4332);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase_B2')
+data.setCell(1, 2, 'com.qtpselenium.suiteCart.TestCase_B2')
+data.setCell(1, 3, 0);
+window.suiteTableData['SuiteCart']= { tableData: data, tableDiv: 'times-div-SuiteCart'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-SuiteCart">
+              </div> <!-- times-div-SuiteCart -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_suite');
+function tableData_My_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_suite']= { tableData: data, tableDiv: 'times-div-My_suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_suite">
+              </div> <!-- times-div-My_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteProductDisplay</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteCart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteProductDisplay" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">1970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Safety Helmet, , , 2)</span>
+                <span class="method-start">2010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">48238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Cowboy†Hat, , , 3)</span>
+                <span class="method-start">50658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addProductTest(, , , )</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkProductDisplay</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.CheckTotal</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckTotal</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">66992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">67072 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67202 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67252 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">1970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Safety Helmet, , , 2)</span>
+                <span class="method-start">2010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">48238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Cowboy†Hat, , , 3)</span>
+                <span class="method-start">50658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addProductTest(, , , )</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkProductDisplay</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.CheckTotal</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckTotal</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">66992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">67072 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67202 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67252 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteCart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">1970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Safety Helmet, , , 2)</span>
+                <span class="method-start">2010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">48238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Cowboy†Hat, , , 3)</span>
+                <span class="method-start">50658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addProductTest(, , , )</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkProductDisplay</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.CheckTotal</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckTotal</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">66992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">67072 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67202 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67252 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">1970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Safety Helmet, , , 2)</span>
+                <span class="method-start">2010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">48238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductTest(Cowboy†Hat, , , 3)</span>
+                <span class="method-start">50658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addProductTest(, , , )</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">62260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkProductDisplay</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteShop.RandomSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62640 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.CheckTotal</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckTotal</span>
+                <span class="method-start">62660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setDataResult</span>
+                <span class="method-start">66992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">67072 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteCart.TestCase_B2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67202 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67222 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.suiteProductDisplay.TestCase_C2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkipped</span>
+                <span class="method-start">67252 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
